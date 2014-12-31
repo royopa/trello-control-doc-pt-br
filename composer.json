@@ -1,6 +1,6 @@
 {
-    "name": "fabpot/silex-skeleton",
-    "description": "A pre-configured skeleton for the Silex microframework",
+    "name": "royopa/trello-control-doc-pt-br",
+    "description": "Ferramenta para verificação dos cards e arquivos ainda não traduzidos na documentação do PHP em pt_BR",
     "license": "MIT",
     "type": "project",
     "require": {
