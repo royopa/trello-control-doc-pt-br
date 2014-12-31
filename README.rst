@@ -6,7 +6,7 @@ Ferramenta para verificação dos cards e arquivos ainda não traduzidos na docu
 Criando a aplicação
 -------------------
 
-A ferramenta usa o `Composer`_ para a criação do novo projeto:
+A ferramenta usa o Composer para a criação do novo projeto:
 
 .. code-block:: console
 
