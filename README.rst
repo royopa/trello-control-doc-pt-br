@@ -1,7 +1,18 @@
-Trello Control PHP Manual: Brazilian Portuguese translation
-===========================================================
+Trello Control PHP Manual in pt_BR
+==================================
 
 Ferramenta para verificação dos cards e arquivos ainda não traduzidos na documentação do PHP em pt_BR!
+
+Criando a aplicação
+-------------------
+
+A ferramenta usa o `Composer`_ para a criação do novo projeto:
+
+.. code-block:: console
+
+    $ composer create-project royopa/trello-control-doc-pt-br path/to/install
+
+Composer irá criar o projeto no diretório `path/to/install`.
 
 Criando a chave e o token no Trello
 -----------------------------------
