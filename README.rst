@@ -10,7 +10,7 @@ A ferramenta usa o `Composer`_ para a criação do novo projeto:
 
 .. code-block:: console
 
-    $ composer create-project royopa/trello-control-doc-pt-br path/to/install
+    $ composer create-project royopa/trello-control-doc-pt-br path/to/install dev-master
 
 Composer irá criar o projeto no diretório `path/to/install`.
 
