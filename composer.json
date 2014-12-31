@@ -3,6 +3,13 @@
     "description": "Ferramenta para verificação dos cards e arquivos ainda não traduzidos na documentação do PHP em pt_BR",
     "license": "MIT",
     "type": "project",
+    "version": "0.1",
+	"authors": [
+        {
+            "name": "Rodrigo Prado de Jesus",
+            "email": "royopa@gmail.com"
+        }
+    ],
     "require": {
         "php": ">=5.3.3",
         "silex/silex": "~2.0@dev",
@@ -26,11 +33,6 @@
     },
     "autoload": {
         "psr-0": { "": "src/" }
-    },
-    "extra": {
-        "branch-alias": {
-            "dev-master": "2.0.x-dev"
-        }
     },
     "scripts": {
         "run": [
