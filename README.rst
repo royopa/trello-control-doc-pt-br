@@ -1,9 +1,7 @@
-Trello Control doc pt br
-========================
+Trello Control PHP Manual: Brazilian Portuguese translation
+===========================================================
 
-Verificaçaõ dos cards e arquivos ainda não traduzidos da documentação do PHP em pt_BR!
-
-This document contains information on how to start using the Silex Skeleton.
+Ferramenta para verificação dos cards e arquivos ainda não traduzidos na documentação do PHP em pt_BR!
 
 Criando a chave e o token no Trello
 -----------------------------------
@@ -12,7 +10,7 @@ Acesse a página abaixo:
 
 https://trello.com/c/jObnWvl1/25-generating-your-developer-key
 
-Após a criação de sua key e do token, altere o arquivo /src/controllers.php com 
+Após a criação de sua chave e do token, altere o arquivo /src/controllers.php com 
 as suas informações.
 
 .. code-block:: console
@@ -34,4 +32,3 @@ Para ver a página rodando, inicie o PHP built-in web server com o comando abaix
     $ composer run
 
 Então, acesse http://localhost:8888/
-
