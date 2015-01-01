@@ -12,6 +12,8 @@ use Trello\Manager;
 
 //Request::setTrustedProxies(array('127.0.0.1'));
 
+ini_set('max_execution_time', 120); //120 seconds = 2 minutes
+
 $app->get('/', function () use ($app) {
     return $app['twig']->render('index.html', array());
 })

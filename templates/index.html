@@ -3,7 +3,9 @@
 {% block content %}
     Verificação dos cards e arquivos ainda não traduzidos da documentação do PHP em pt_BR!
 
-    <p><a href="{{ path('untranslated') }}">Arquivos ainda não traduzidos</a></p>
+    <p><a href="http://doc.php.net/revcheck.php?p=missfiles&lang=pt_BR">Arquivos disponíveis para tradução (página oficial)</a></p>
+
+    <p><a href="{{ path('untranslated') }}">Arquivos disponíveis para tradução (Num array, crawler da página acima. Essa página demora mais de 40 segundos para ser carregada)</a></p>
 
     <p><a href="{{ path('trello') }}">Cards do Trello</a></p>
 {% endblock %}
